@@ -1,26 +1,23 @@
 [
     {
-      "title": "Project A",
+      "title": "Keeper App",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This is project that's to-do list",
+      "skills": ["React", "Javascript", "CSS"],
+      "source": "https://eroblesr.github.io/KeeperApp/"
     },
     {
-      "title": "Project B",
+      "title": "Capstone",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This is a project that i used to practice",
+      "skills": ["HTML", "CSS","Bootstrap"],
+      "source": "https://eroblesr.github.io/Capstone/"
     },
     {
-      "title": "Project C",
+      "title": "Pet Care",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This is a final project from my collage",
+      "skills": ["Dart", "HTML", "Ruby"],
+      "source": "https://github.com/eroblesr/pet_care.git"
     }
 ]

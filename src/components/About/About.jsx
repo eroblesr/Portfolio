@@ -5,45 +5,32 @@ import { getImageUrl } from '../../utils';
 export const About =()=> {
   return (
     <section className={styles.container} id="about">
-        <h2 className={styles.title}>about</h2>
+        <h2 className={styles.title}>About me</h2>
         <div className={styles.content}>
-            <div className={styles.aboutImage}><img src={getImageUrl("about/aboutImage.png")}alt="aboutImage" /></div>
-            <ul className={styles.aboutItems}>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" className={styles.cursorImage}/>
-                    <div className={styles.aboutItemText}>
-                    <h3>
-                        Frontend Developer
-                    </h3>
-                    <p>
-                        I’m a front-end developer with experience
-                    in building responsive and optimized sites
-                    </p>
-                    </div>
+            <p>
+            Highly motivated Jr Full Stack Developer with over a year of practical experience 
+            in software development and application support  providing technical support in Agile environments.
+            JavaScript (React, Node.js) is the main tool used to debug, optimize, and deliver functional applications.
+            Strong problem solving skills and teamwork with cross-functional teams to improve user experience
+            </p>
+            <h3>
+                My interests:
+            </h3>
+            <ul className={styles.aboutHobbies}>
+                <li>
+                    <img src={getImageUrl("about/Crochet.png")} alt="crochet img" />
                 </li>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/serverIcon.png")}alt="Server icon" />
-                    <div className={styles.aboutItemText}>
-                    <h3>
-                        Backend Developer
-                    </h3>
-                    <p>
-                        I have experience developing fast and
-                        optimised back-end systems and APIs
-                    </p>
-                </div>
+                <li>
+                    <img src={getImageUrl("about/cat.png")} alt="cat img" />
                 </li>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
-                    <div className={styles.aboutItemText}   >
-                    <h3>
-                        UI Designer
-                    </h3>
-                    <p>
-                        I have designed multiple landing pages and
-                        have created design systems as well
-                    </p>
-                </div>
+                <li>
+                    <img src={getImageUrl("about/Control.png")} alt="Control img" />
+                </li>
+                <li>
+                    <img src={getImageUrl("about/TV.png")} alt="TV img" />
+                </li>
+                <li>
+                    <img src={getImageUrl("about/Ceramic.png")} alt="Ceramic img" />
                 </li>
             </ul>
         </div>
