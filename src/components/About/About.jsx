@@ -18,19 +18,19 @@ export const About =()=> {
             </h3>
             <ul className={styles.aboutHobbies}>
                 <li>
-                    <img src={getImageUrl("about/Crochet.png")} alt="crochet img" />
+                    <img src={getImageUrl("about/crochet.png")} alt="crochet img" />
                 </li>
                 <li>
                     <img src={getImageUrl("about/cat.png")} alt="cat img" />
                 </li>
                 <li>
-                    <img src={getImageUrl("about/Control.png")} alt="Control img" />
+                    <img src={getImageUrl("about/control.png")} alt="Control img" />
                 </li>
                 <li>
-                    <img src={getImageUrl("about/TV.png")} alt="TV img" />
+                    <img src={getImageUrl("about/tv.png")} alt="TV img" />
                 </li>
                 <li>
-                    <img src={getImageUrl("about/Ceramic.png")} alt="Ceramic img" />
+                    <img src={getImageUrl("about/ceramic.png")} alt="Ceramic img" />
                 </li>
             </ul>
         </div>
