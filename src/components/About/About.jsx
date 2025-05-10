@@ -21,7 +21,7 @@ export const About =()=> {
                     <img src={getImageUrl("about/crochet.png")} alt="crochet img" />
                 </li>
                 <li>
-                    <img src={getImageUrl("about/cat.png")} alt="cat img" />
+                    <img src={getImageUrl("cat.png")} alt="cat" />
                 </li>
                 <li>
                     <img src={getImageUrl("about/control.png")} alt="Control img" />
